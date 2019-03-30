@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "6b72a2b0f6ff38f4fb73ea58e02e385f"
+build_time: [1553960922, 900711000]
+inputs:
+  "/Users/princegupta/Desktop/WeatherForecastApp/WeatherForecastApp/ViewController.swift": [1553960918, 0]
+  "/Users/princegupta/Desktop/WeatherForecastApp/WeatherForecastApp/AppDelegate.swift": [1553960918, 0]
