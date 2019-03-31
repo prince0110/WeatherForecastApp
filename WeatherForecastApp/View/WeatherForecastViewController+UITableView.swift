@@ -18,9 +18,9 @@ extension WeatherForecastViewController: UITableViewDataSource, UITableViewDeleg
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         dateFormatter.dateFormat = "yyyy-MM-dd"
         let date = dateFormatter.date(from: dates[section])
-        dateFormatter.dateFormat = "MMM d, yyyy"
+        dateFormatter.dateFormat = "d MMM, yyyy"
         let dateString = dateFormatter.string(from: date!)
-        return dateString
+        return dateString.uppercased()
     }
     
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {

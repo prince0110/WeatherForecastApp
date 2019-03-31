@@ -14,6 +14,7 @@ struct WeatherForecastViewModel {
     let temp: String
     let time: String
     let dateFormatter = DateFormatter()
+    let humidity: String
     
     init(weather: TrihoralWeather) {
         desc = weather.weathers.first!.desc.capitalized
@@ -24,5 +25,7 @@ struct WeatherForecastViewModel {
         dateFormatter.amSymbol = "AM"
         dateFormatter.pmSymbol = "PM"
         time = "Time: " + dateFormatter.string(from: date)
+        
+        humidity = "Humidity: \(weather.main.humidity)%"
     }
 }

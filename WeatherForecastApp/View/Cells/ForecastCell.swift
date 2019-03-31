@@ -13,6 +13,7 @@ class ForecastCell: UITableViewCell {
     @IBOutlet weak var descLabel: UILabel!
     @IBOutlet weak var tempLabel: UILabel!
     @IBOutlet weak var timeLabel: UILabel!
+    @IBOutlet weak var humidityLabel: UILabel!
     @IBOutlet weak var forecastView: UIView!
     
     
@@ -21,6 +22,7 @@ class ForecastCell: UITableViewCell {
             tempLabel.text = viewModel.temp
             descLabel.text = viewModel.desc
             timeLabel.text = viewModel.time
+            humidityLabel.text = viewModel.humidity
         }
     }
     

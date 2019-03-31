@@ -207,6 +207,7 @@ SWIFT_CLASS("_TtC18WeatherForecastApp12ForecastCell")
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified descLabel;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified tempLabel;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified timeLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified humidityLabel;
 @property (nonatomic, weak) IBOutlet UIView * _Null_unspecified forecastView;
 - (void)awakeFromNib;
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated;
