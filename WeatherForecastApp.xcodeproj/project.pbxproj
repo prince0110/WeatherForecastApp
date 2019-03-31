@@ -14,9 +14,7 @@
 		EF266513224FC75800A2CFF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF266511224FC75800A2CFF0 /* LaunchScreen.storyboard */; };
 		EF26651E224FC75800A2CFF0 /* WeatherForecastAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF26651D224FC75800A2CFF0 /* WeatherForecastAppTests.swift */; };
 		EF266529224FC75800A2CFF0 /* WeatherForecastAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF266528224FC75800A2CFF0 /* WeatherForecastAppUITests.swift */; };
-		EF26653C224FC8B900A2CFF0 /* OpenWeatherMap.png in Resources */ = {isa = PBXBuildFile; fileRef = EF26653B224FC8B900A2CFF0 /* OpenWeatherMap.png */; };
 		EF26653E224FCA3E00A2CFF0 /* WeatherForecastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF26653D224FCA3E00A2CFF0 /* WeatherForecastViewController.swift */; };
-		EF266540224FD4E800A2CFF0 /* splash_screen.png in Resources */ = {isa = PBXBuildFile; fileRef = EF26653F224FD4E800A2CFF0 /* splash_screen.png */; };
 		EF266542224FD5D700A2CFF0 /* Splashscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = EF266541224FD5D600A2CFF0 /* Splashscreen.png */; };
 		EF266545224FD9E200A2CFF0 /* WeatherForecastViewController+UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF266544224FD9E200A2CFF0 /* WeatherForecastViewController+UITableView.swift */; };
 		EF266548224FDF0400A2CFF0 /* HttpWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF266547224FDF0400A2CFF0 /* HttpWorker.swift */; };
@@ -59,9 +57,7 @@
 		EF266524224FC75800A2CFF0 /* WeatherForecastAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherForecastAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF266528224FC75800A2CFF0 /* WeatherForecastAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherForecastAppUITests.swift; sourceTree = "<group>"; };
 		EF26652A224FC75800A2CFF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EF26653B224FC8B900A2CFF0 /* OpenWeatherMap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OpenWeatherMap.png; sourceTree = "<group>"; };
 		EF26653D224FCA3E00A2CFF0 /* WeatherForecastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherForecastViewController.swift; sourceTree = "<group>"; };
-		EF26653F224FD4E800A2CFF0 /* splash_screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash_screen.png; sourceTree = "<group>"; };
 		EF266541224FD5D600A2CFF0 /* Splashscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splashscreen.png; sourceTree = "<group>"; };
 		EF266544224FD9E200A2CFF0 /* WeatherForecastViewController+UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WeatherForecastViewController+UITableView.swift"; sourceTree = "<group>"; };
 		EF266547224FDF0400A2CFF0 /* HttpWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpWorker.swift; sourceTree = "<group>"; };
@@ -202,8 +198,6 @@
 			isa = PBXGroup;
 			children = (
 				EF266541224FD5D600A2CFF0 /* Splashscreen.png */,
-				EF26653F224FD4E800A2CFF0 /* splash_screen.png */,
-				EF26653B224FC8B900A2CFF0 /* OpenWeatherMap.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -331,9 +325,7 @@
 			files = (
 				EF266513224FC75800A2CFF0 /* LaunchScreen.storyboard in Resources */,
 				EF266550224FF49800A2CFF0 /* ForecastCell.xib in Resources */,
-				EF266540224FD4E800A2CFF0 /* splash_screen.png in Resources */,
 				EF266542224FD5D700A2CFF0 /* Splashscreen.png in Resources */,
-				EF26653C224FC8B900A2CFF0 /* OpenWeatherMap.png in Resources */,
 				EF266510224FC75800A2CFF0 /* Assets.xcassets in Resources */,
 				EF26650E224FC75600A2CFF0 /* Main.storyboard in Resources */,
 			);

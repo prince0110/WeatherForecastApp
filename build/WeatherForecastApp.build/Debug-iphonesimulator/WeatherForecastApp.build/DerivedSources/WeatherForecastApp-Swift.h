@@ -218,11 +218,13 @@ SWIFT_CLASS("_TtC18WeatherForecastApp12ForecastCell")
 
 
 @class UITableView;
+@class UIActivityIndicatorView;
 @class NSBundle;
 
 SWIFT_CLASS("_TtC18WeatherForecastApp29WeatherForecastViewController")
 @interface WeatherForecastViewController : UIViewController
 @property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified tableview;
+@property (nonatomic, weak) IBOutlet UIActivityIndicatorView * _Null_unspecified activityIndicator;
 - (void)viewDidLoad;
 - (void)clickOnButton;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;

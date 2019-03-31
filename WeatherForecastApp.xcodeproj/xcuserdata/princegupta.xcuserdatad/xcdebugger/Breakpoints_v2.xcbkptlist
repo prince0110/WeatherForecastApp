@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WeatherForecastApp/View/WeatherForecastViewController.swift"
-            timestampString = "575727217.103287"
+            timestampString = "575730927.335807"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "79"
-            endingLineNumber = "79"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
             landmarkName = "fetchData()"
             landmarkType = "7">
          </BreakpointContent>

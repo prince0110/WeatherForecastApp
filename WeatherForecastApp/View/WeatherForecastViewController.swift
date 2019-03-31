@@ -10,6 +10,7 @@ import UIKit
 
 class WeatherForecastViewController: UIViewController {
     @IBOutlet weak var tableview: UITableView!
+    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     
     typealias Coordinates = (lat: Double, long: Double)
     typealias CityDesc = (city: String, coord: Coordinates)
@@ -32,6 +33,7 @@ class WeatherForecastViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupUI()
+        showActivityIndicator()
         fetchData()
     }
     
@@ -63,6 +65,7 @@ class WeatherForecastViewController: UIViewController {
                 let idx = sheet.actions.firstIndex(of: act)!
                 self.currentCity = self.cities[idx]
                 self.setupNavButton()
+                self.showActivityIndicator()
                 self.fetchData()
             }
             sheet.addAction(action)
@@ -96,6 +99,7 @@ class WeatherForecastViewController: UIViewController {
                     AppUtils.showAlert(msg: "Could not fetch data")
                 }
                 DispatchQueue.main.async {
+                    self.hideActivityIndicator()
                     self.tableview.reloadData()
                 }
             }
@@ -103,5 +107,17 @@ class WeatherForecastViewController: UIViewController {
             AppUtils.showAlert(msg: "Could not fetch data")
             print("Error ==== \(error)")
         }
+    }
+    
+    private func showActivityIndicator() {
+        self.activityIndicator.isHidden = false
+        self.activityIndicator.startAnimating()
+        self.tableview.isHidden = true
+    }
+    
+    private func hideActivityIndicator() {
+        self.activityIndicator.isHidden = true
+        self.activityIndicator.stopAnimating()
+        self.tableview.isHidden = false
     }
 }
