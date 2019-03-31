@@ -1,2 +1,1 @@
 # WeatherForecastApp
-Swift app
