@@ -1,6 +1,14 @@
 version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
-options: "6b72a2b0f6ff38f4fb73ea58e02e385f"
-build_time: [1553960922, 900711000]
+options: "c8e3bb19c63de6883baeb9ee4d0c3ecb"
+build_time: [1554018240, 917167000]
 inputs:
-  "/Users/princegupta/Desktop/WeatherForecastApp/WeatherForecastApp/ViewController.swift": [1553960918, 0]
-  "/Users/princegupta/Desktop/WeatherForecastApp/WeatherForecastApp/AppDelegate.swift": [1553960918, 0]
+  "/Users/princegupta/Desktop/WeatherForecastApp/WeatherForecastApp/ViewModel/WeatherForecastViewModel.swift": [1554017087, 0]
+  "/Users/princegupta/Desktop/WeatherForecastApp/WeatherForecastApp/HttpWorker/HttpWorker.swift": [1554017044, 0]
+  "/Users/princegupta/Desktop/WeatherForecastApp/WeatherForecastApp/View/WeatherForecastViewController+UITableView.swift": [1554016819, 0]
+  "/Users/princegupta/Desktop/WeatherForecastApp/WeatherForecastApp/Application/AppUtils.swift": [1553972732, 0]
+  "/Users/princegupta/Desktop/WeatherForecastApp/WeatherForecastApp/Model/Forecast.swift": [1553972877, 0]
+  "/Users/princegupta/Desktop/WeatherForecastApp/WeatherForecastApp/Application/AppDelegate.swift": [1553960918, 0]
+  "/Users/princegupta/Desktop/WeatherForecastApp/WeatherForecastApp/View/Cells/ForecastCell.swift": [1554015829, 0]
+  "/Users/princegupta/Desktop/WeatherForecastApp/WeatherForecastApp/View/WeatherForecastViewController.swift": [1554017059, 0]
+  "/Users/princegupta/Desktop/WeatherForecastApp/WeatherForecastApp/Helpers/CustomColor.swift": [1554017045, 0]
+  "/Users/princegupta/Desktop/WeatherForecastApp/WeatherForecastApp/Model/Weather.swift": [1553972884, 0]
